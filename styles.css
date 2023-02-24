@@ -1,0 +1,87 @@
+body{
+    background-color: #FFF5E4;
+}
+
+.main-div{
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    left: 30%;
+    top: 21%;
+}
+
+.main-image{
+    width: 42%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+p{
+    color: #7e7e7e;
+    margin: 0px;
+}
+
+h1{
+    line-height: 1;
+}
+
+.second-div{
+    position: absolute;
+    width: 35%;
+    right: 12%;
+    top: 5%;
+}
+
+.attribution{
+    text-align: center;
+    position: absolute;
+    bottom: 8%;
+    left: 35%;
+}
+
+.price{
+    color: #1b8209;
+    font-size: x-large;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+.price-cut{
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+
+.price-div{
+    padding: 20px;
+}
+
+.btn{
+    background: #1b8209;
+    background-image: -webkit-linear-gradient(top, #1b8209, #107832);
+    background-image: -moz-linear-gradient(top, #1b8209, #107832);
+    background-image: -ms-linear-gradient(top, #1b8209, #107832);
+    background-image: -o-linear-gradient(top, #1b8209, #107832);
+    background-image: linear-gradient(to bottom, #1b8209, #107832);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 11px 35px 10px 35px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #0e4a07;
+    background-image: -webkit-linear-gradient(top, #0e4a07, #06521b);
+    background-image: -moz-linear-gradient(top, #0e4a07, #06521b);
+    background-image: -ms-linear-gradient(top, #0e4a07, #06521b);
+    background-image: -o-linear-gradient(top, #0e4a07, #06521b);
+    background-image: linear-gradient(to bottom, #0e4a07, #06521b);
+    text-decoration: none;
+  }
+
+  .btn::before{
+    content: "🛒";
+  }
